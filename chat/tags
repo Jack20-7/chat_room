@@ -1,0 +1,125 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ChatMessage	protocol.cc	/^ChatMessage::ChatMessage(){$/;"	f	class:chat::ChatMessage	signature:()
+ChatMessage	protocol.h	/^    ChatMessage();$/;"	p	class:chat::ChatMessage	access:public	signature:()
+ChatMessage	protocol.h	/^class ChatMessage{$/;"	c	namespace:chat
+ChatWSServlet	chat_servlet.cc	/^ChatWSServlet::ChatWSServlet()$/;"	f	class:chat::ChatWSServlet	signature:()
+ChatWSServlet	chat_servlet.h	/^    ChatWSServlet();$/;"	p	class:chat::ChatWSServlet	access:public	signature:()
+ChatWSServlet	chat_servlet.h	/^class ChatWSServlet:public JKYi::http::WSServlet{$/;"	c	namespace:chat	inherits:JKYi::http::WSServlet
+Create	protocol.cc	/^ChatMessage::ptr ChatMessage::Create(const std::string& str){$/;"	f	class:chat::ChatMessage	signature:(const std::string& str)
+Create	protocol.h	/^    static ChatMessage::ptr Create(const std::string& str);$/;"	p	class:chat::ChatMessage	access:public	signature:(const std::string& str)
+CreateModule	my_module.cc	/^JKYi::Module* CreateModule(){$/;"	f	signature:()
+DestroyModule	my_module.cc	/^void DestroyModule(JKYi::Module * module){$/;"	f	signature:(JKYi::Module * module)
+JKYi	resource_servlet.cc	/^namespace JKYi{$/;"	n	file:
+JKYi	resource_servlet.h	/^namespace JKYi{$/;"	n
+JKYi::http	resource_servlet.cc	/^namespace http{$/;"	n	namespace:JKYi	file:
+JKYi::http	resource_servlet.h	/^namespace http{$/;"	n	namespace:JKYi
+JKYi::http::ResourceServlet	resource_servlet.h	/^class ResourceServlet:public JKYi::http::Servlet{$/;"	c	namespace:JKYi::http	inherits:JKYi::http::Servlet
+JKYi::http::ResourceServlet::ResourceServlet	resource_servlet.cc	/^ResourceServlet::ResourceServlet(const std::string& path)$/;"	f	class:JKYi::http::ResourceServlet	signature:(const std::string& path)
+JKYi::http::ResourceServlet::ResourceServlet	resource_servlet.h	/^    ResourceServlet(const std::string& path);$/;"	p	class:JKYi::http::ResourceServlet	access:public	signature:(const std::string& path)
+JKYi::http::ResourceServlet::handle	resource_servlet.cc	/^int32_t ResourceServlet::handle(JKYi::http::HttpRequest::ptr req,$/;"	f	class:JKYi::http::ResourceServlet	signature:(JKYi::http::HttpRequest::ptr req, JKYi::http::HttpResponse::ptr rsp, JKYi::http::HttpSession::ptr session)
+JKYi::http::ResourceServlet::m_path	resource_servlet.h	/^    std::string m_path;$/;"	m	class:JKYi::http::ResourceServlet	access:private
+JKYi::http::ResourceServlet::override	resource_servlet.h	/^                            JKYi::http::HttpSession::ptr session)override;$/;"	m	class:JKYi::http::ResourceServlet	access:public
+JKYi::http::ResourceServlet::ptr	resource_servlet.h	/^    typedef std::shared_ptr<ResourceServlet> ptr;$/;"	t	class:JKYi::http::ResourceServlet	access:public
+JKYi::http::g_logger	resource_servlet.cc	/^static Logger::ptr g_logger = JKYI_LOG_ROOT();$/;"	m	namespace:JKYi::http	file:
+MyModule	my_module.cc	/^MyModule::MyModule()$/;"	f	class:chat::MyModule	signature:()
+MyModule	my_module.h	/^    MyModule();$/;"	p	class:chat::MyModule	access:public	signature:()
+MyModule	my_module.h	/^class MyModule:public JKYi::Module{$/;"	c	namespace:chat	inherits:JKYi::Module
+ResourceServlet	resource_servlet.cc	/^ResourceServlet::ResourceServlet(const std::string& path)$/;"	f	class:JKYi::http::ResourceServlet	signature:(const std::string& path)
+ResourceServlet	resource_servlet.h	/^    ResourceServlet(const std::string& path);$/;"	p	class:JKYi::http::ResourceServlet	access:public	signature:(const std::string& path)
+ResourceServlet	resource_servlet.h	/^class ResourceServlet:public JKYi::http::Servlet{$/;"	c	namespace:JKYi::http	inherits:JKYi::http::Servlet
+SendMessage	chat_servlet.cc	/^int32_t SendMessage(JKYi::http::WSSession::ptr session,$/;"	f	namespace:chat	signature:(JKYi::http::WSSession::ptr session, ChatMessage::ptr msg)
+_CHAT_CHAT_SERVLET_H_	chat_servlet.h	2;"	d
+_CHAT_PROTOCOL_H_	protocol.h	2;"	d
+_JKYI_RESOURCE_SERVLET_H_	resource_servlet.h	2;"	d
+chat	chat_servlet.cc	/^namespace chat{$/;"	n	file:
+chat	chat_servlet.h	/^namespace chat{$/;"	n
+chat	my_module.cc	/^namespace chat{$/;"	n	file:
+chat	my_module.h	/^namespace chat{$/;"	n
+chat	protocol.cc	/^namespace chat{$/;"	n	file:
+chat	protocol.h	/^namespace chat{$/;"	n
+chat::ChatMessage	protocol.h	/^class ChatMessage{$/;"	c	namespace:chat
+chat::ChatMessage::ChatMessage	protocol.cc	/^ChatMessage::ChatMessage(){$/;"	f	class:chat::ChatMessage	signature:()
+chat::ChatMessage::ChatMessage	protocol.h	/^    ChatMessage();$/;"	p	class:chat::ChatMessage	access:public	signature:()
+chat::ChatMessage::Create	protocol.cc	/^ChatMessage::ptr ChatMessage::Create(const std::string& str){$/;"	f	class:chat::ChatMessage	signature:(const std::string& str)
+chat::ChatMessage::Create	protocol.h	/^    static ChatMessage::ptr Create(const std::string& str);$/;"	p	class:chat::ChatMessage	access:public	signature:(const std::string& str)
+chat::ChatMessage::get	protocol.cc	/^std::string ChatMessage::get(const std::string& name){$/;"	f	class:chat::ChatMessage	signature:(const std::string& name)
+chat::ChatMessage::get	protocol.h	/^    std::string get(const std::string& name);$/;"	p	class:chat::ChatMessage	access:public	signature:(const std::string& name)
+chat::ChatMessage::m_datas	protocol.h	/^    std::map<std::string,std::string> m_datas;$/;"	m	class:chat::ChatMessage	access:private
+chat::ChatMessage::ptr	protocol.h	/^    typedef std::shared_ptr<ChatMessage> ptr;$/;"	t	class:chat::ChatMessage	access:public
+chat::ChatMessage::set	protocol.cc	/^void ChatMessage::set(const std::string& name,const std::string& value){$/;"	f	class:chat::ChatMessage	signature:(const std::string& name,const std::string& value)
+chat::ChatMessage::set	protocol.h	/^    void set(const std::string& name,const std::string& value);$/;"	p	class:chat::ChatMessage	access:public	signature:(const std::string& name,const std::string& value)
+chat::ChatMessage::toString	protocol.cc	/^std::string ChatMessage::toString()const{$/;"	f	class:chat::ChatMessage	signature:() const
+chat::ChatMessage::toString	protocol.h	/^    std::string toString()const;$/;"	p	class:chat::ChatMessage	access:public	signature:() const
+chat::ChatWSServlet	chat_servlet.h	/^class ChatWSServlet:public JKYi::http::WSServlet{$/;"	c	namespace:chat	inherits:JKYi::http::WSServlet
+chat::ChatWSServlet::ChatWSServlet	chat_servlet.cc	/^ChatWSServlet::ChatWSServlet()$/;"	f	class:chat::ChatWSServlet	signature:()
+chat::ChatWSServlet::ChatWSServlet	chat_servlet.h	/^    ChatWSServlet();$/;"	p	class:chat::ChatWSServlet	access:public	signature:()
+chat::ChatWSServlet::handle	chat_servlet.cc	/^int32_t ChatWSServlet::handle(JKYi::http::HttpRequest::header,$/;"	f	class:chat::ChatWSServlet	signature:(JKYi::http::HttpRequest::header, JKYi::http::WSFrameMessage::ptr msg, JKYi::http::WSSession::ptr session)
+chat::ChatWSServlet::onClose	chat_servlet.cc	/^int32_t ChatWSServlet::onClose(JKYi::http::HttpRequest::ptr header,$/;"	f	class:chat::ChatWSServlet	signature:(JKYi::http::HttpRequest::ptr header, JKYi::http::WSSession::ptr session)
+chat::ChatWSServlet::onConnect	chat_servlet.cc	/^int32_t ChatWSServlet::onConnect(JKYi::http::HttpRequest::ptr header,$/;"	f	class:chat::ChatWSServlet	signature:(JKYi::http::HttpRequest::ptr header, JKYi::http::WSSession::ptr session)
+chat::ChatWSServlet::override	chat_servlet.h	/^                                JKYi::http::WSSession::Ptr session)override;$/;"	m	class:chat::ChatWSServlet	access:public
+chat::ChatWSServlet::override	chat_servlet.h	/^                                JKYi::http::WSSession::ptr session)override;$/;"	m	class:chat::ChatWSServlet	access:public
+chat::ChatWSServlet::ptr	chat_servlet.h	/^    typedef std::shared_ptr<ChatWSServlet> ptr;$/;"	t	class:chat::ChatWSServlet	access:public
+chat::MyModule	my_module.h	/^class MyModule:public JKYi::Module{$/;"	c	namespace:chat	inherits:JKYi::Module
+chat::MyModule::MyModule	my_module.cc	/^MyModule::MyModule()$/;"	f	class:chat::MyModule	signature:()
+chat::MyModule::MyModule	my_module.h	/^    MyModule();$/;"	p	class:chat::MyModule	access:public	signature:()
+chat::MyModule::onLoad	my_module.cc	/^bool MyModule::onLoad(){$/;"	f	class:chat::MyModule	signature:()
+chat::MyModule::onServerReady	my_module.cc	/^bool MyModule::onServerReady(){$/;"	f	class:chat::MyModule	signature:()
+chat::MyModule::onServerUp	my_module.cc	/^bool MyModule::onServerUp(){$/;"	f	class:chat::MyModule	signature:()
+chat::MyModule::onUnload	my_module.cc	/^bool MyModule::onUnload(){$/;"	f	class:chat::MyModule	signature:()
+chat::MyModule::override	my_module.h	/^    bool onLoad()override;$/;"	m	class:chat::MyModule	access:public
+chat::MyModule::override	my_module.h	/^    bool onServerReady()override;$/;"	m	class:chat::MyModule	access:public
+chat::MyModule::override	my_module.h	/^    bool onServerUp()override;$/;"	m	class:chat::MyModule	access:public
+chat::MyModule::override	my_module.h	/^    bool onUnload()override;$/;"	m	class:chat::MyModule	access:public
+chat::MyModule::ptr	my_module.h	/^    typedef std::shared_ptr<MyModule> ptr;$/;"	t	class:chat::MyModule	access:public
+chat::SendMessage	chat_servlet.cc	/^int32_t SendMessage(JKYi::http::WSSession::ptr session,$/;"	f	namespace:chat	signature:(JKYi::http::WSSession::ptr session, ChatMessage::ptr msg)
+chat::g_logger	chat_servlet.cc	/^static JKYi::Logger::ptr g_logger = JKYI_LOG_ROOT();$/;"	m	namespace:chat	file:
+chat::g_logger	my_module.cc	/^static JKYi::Logger::ptr g_logger = JKYI_LOG_ROOT();$/;"	m	namespace:chat	file:
+chat::m_mutex	chat_servlet.cc	/^JKYi::RWMutex m_mutex;$/;"	m	namespace:chat	file:
+chat::m_sessions	chat_servlet.cc	/^std::map<std::string,JKYi::http::WSSession::ptr> m_sessions;$/;"	m	namespace:chat	file:
+chat::session::notify	chat_servlet.cc	/^void session::notify(ChatMessage::ptr msg,JKYi::http::WSSession::ptr session = nullptr){$/;"	f	class:chat::session	signature:(ChatMessage::ptr msg,JKYi::http::WSSession::ptr session = nullptr)
+chat::session_add	chat_servlet.cc	/^void session_add(const std::string& id,JKYi::http::WSSession::ptr session){$/;"	f	namespace:chat	signature:(const std::string& id,JKYi::http::WSSession::ptr session)
+chat::session_del	chat_servlet.cc	/^void session_del(const std::string& id){$/;"	f	namespace:chat	signature:(const std::string& id)
+chat::session_exists	chat_servlet.cc	/^bool session_exists(const std::string& id){$/;"	f	namespace:chat	signature:(const std::string& id)
+g_logger	chat_servlet.cc	/^static JKYi::Logger::ptr g_logger = JKYI_LOG_ROOT();$/;"	m	namespace:chat	file:
+g_logger	my_module.cc	/^static JKYi::Logger::ptr g_logger = JKYI_LOG_ROOT();$/;"	m	namespace:chat	file:
+g_logger	resource_servlet.cc	/^static Logger::ptr g_logger = JKYI_LOG_ROOT();$/;"	m	namespace:JKYi::http	file:
+get	protocol.cc	/^std::string ChatMessage::get(const std::string& name){$/;"	f	class:chat::ChatMessage	signature:(const std::string& name)
+get	protocol.h	/^    std::string get(const std::string& name);$/;"	p	class:chat::ChatMessage	access:public	signature:(const std::string& name)
+handle	chat_servlet.cc	/^int32_t ChatWSServlet::handle(JKYi::http::HttpRequest::header,$/;"	f	class:chat::ChatWSServlet	signature:(JKYi::http::HttpRequest::header, JKYi::http::WSFrameMessage::ptr msg, JKYi::http::WSSession::ptr session)
+handle	resource_servlet.cc	/^int32_t ResourceServlet::handle(JKYi::http::HttpRequest::ptr req,$/;"	f	class:JKYi::http::ResourceServlet	signature:(JKYi::http::HttpRequest::ptr req, JKYi::http::HttpResponse::ptr rsp, JKYi::http::HttpSession::ptr session)
+http	resource_servlet.cc	/^namespace http{$/;"	n	namespace:JKYi	file:
+http	resource_servlet.h	/^namespace http{$/;"	n	namespace:JKYi
+m_datas	protocol.h	/^    std::map<std::string,std::string> m_datas;$/;"	m	class:chat::ChatMessage	access:private
+m_mutex	chat_servlet.cc	/^JKYi::RWMutex m_mutex;$/;"	m	namespace:chat	file:
+m_path	resource_servlet.h	/^    std::string m_path;$/;"	m	class:JKYi::http::ResourceServlet	access:private
+m_sessions	chat_servlet.cc	/^std::map<std::string,JKYi::http::WSSession::ptr> m_sessions;$/;"	m	namespace:chat	file:
+notify	chat_servlet.cc	/^void session::notify(ChatMessage::ptr msg,JKYi::http::WSSession::ptr session = nullptr){$/;"	f	class:chat::session	signature:(ChatMessage::ptr msg,JKYi::http::WSSession::ptr session = nullptr)
+onClose	chat_servlet.cc	/^int32_t ChatWSServlet::onClose(JKYi::http::HttpRequest::ptr header,$/;"	f	class:chat::ChatWSServlet	signature:(JKYi::http::HttpRequest::ptr header, JKYi::http::WSSession::ptr session)
+onConnect	chat_servlet.cc	/^int32_t ChatWSServlet::onConnect(JKYi::http::HttpRequest::ptr header,$/;"	f	class:chat::ChatWSServlet	signature:(JKYi::http::HttpRequest::ptr header, JKYi::http::WSSession::ptr session)
+onLoad	my_module.cc	/^bool MyModule::onLoad(){$/;"	f	class:chat::MyModule	signature:()
+onServerReady	my_module.cc	/^bool MyModule::onServerReady(){$/;"	f	class:chat::MyModule	signature:()
+onServerUp	my_module.cc	/^bool MyModule::onServerUp(){$/;"	f	class:chat::MyModule	signature:()
+onUnload	my_module.cc	/^bool MyModule::onUnload(){$/;"	f	class:chat::MyModule	signature:()
+override	chat_servlet.h	/^                                JKYi::http::WSSession::Ptr session)override;$/;"	m	class:chat::ChatWSServlet	access:public
+override	chat_servlet.h	/^                                JKYi::http::WSSession::ptr session)override;$/;"	m	class:chat::ChatWSServlet	access:public
+override	my_module.h	/^    bool onLoad()override;$/;"	m	class:chat::MyModule	access:public
+override	my_module.h	/^    bool onServerReady()override;$/;"	m	class:chat::MyModule	access:public
+override	my_module.h	/^    bool onServerUp()override;$/;"	m	class:chat::MyModule	access:public
+override	my_module.h	/^    bool onUnload()override;$/;"	m	class:chat::MyModule	access:public
+override	resource_servlet.h	/^                            JKYi::http::HttpSession::ptr session)override;$/;"	m	class:JKYi::http::ResourceServlet	access:public
+ptr	chat_servlet.h	/^    typedef std::shared_ptr<ChatWSServlet> ptr;$/;"	t	class:chat::ChatWSServlet	access:public
+ptr	my_module.h	/^    typedef std::shared_ptr<MyModule> ptr;$/;"	t	class:chat::MyModule	access:public
+ptr	protocol.h	/^    typedef std::shared_ptr<ChatMessage> ptr;$/;"	t	class:chat::ChatMessage	access:public
+ptr	resource_servlet.h	/^    typedef std::shared_ptr<ResourceServlet> ptr;$/;"	t	class:JKYi::http::ResourceServlet	access:public
+session_add	chat_servlet.cc	/^void session_add(const std::string& id,JKYi::http::WSSession::ptr session){$/;"	f	namespace:chat	signature:(const std::string& id,JKYi::http::WSSession::ptr session)
+session_del	chat_servlet.cc	/^void session_del(const std::string& id){$/;"	f	namespace:chat	signature:(const std::string& id)
+session_exists	chat_servlet.cc	/^bool session_exists(const std::string& id){$/;"	f	namespace:chat	signature:(const std::string& id)
+set	protocol.cc	/^void ChatMessage::set(const std::string& name,const std::string& value){$/;"	f	class:chat::ChatMessage	signature:(const std::string& name,const std::string& value)
+set	protocol.h	/^    void set(const std::string& name,const std::string& value);$/;"	p	class:chat::ChatMessage	access:public	signature:(const std::string& name,const std::string& value)
+toString	protocol.cc	/^std::string ChatMessage::toString()const{$/;"	f	class:chat::ChatMessage	signature:() const
+toString	protocol.h	/^    std::string toString()const;$/;"	p	class:chat::ChatMessage	access:public	signature:() const

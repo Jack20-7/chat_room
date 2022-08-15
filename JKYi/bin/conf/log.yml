@@ -1,0 +1,14 @@
+logs:
+    - name: root
+      level: info
+      appender:
+          - type: FileLogAppender
+            file: root.txt
+          - type: StdoutLogAppender
+    - name: system
+      level: debug
+      appender:
+          - type: FileLogAppender
+            file: system.txt
+          - type: StdoutLogAppender
+

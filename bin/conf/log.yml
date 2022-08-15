@@ -1,0 +1,14 @@
+logs:
+    - name: root
+      level: info
+      appender:
+          - type: FileLogAppender
+            file: /tmp/logs/chat_room/root.log
+          - type: StdoutLogAppender
+    - name: system
+      level: debug
+      appender:
+          - type: FileLogAppender
+            file: /tmp/logs/chat_room/system.log
+          - type: StdoutLogAppender
+
